@@ -1,0 +1,21 @@
+{
+  "name": "async",
+  "version": "1.0.0",
+  "description": "async javascript",
+  "main": "src/index.js",
+  "scripts": {
+    "callback": "node src/callbacks/index.js",
+    "callback:challenge": "node src/callbacks/challenge.js",
+    "promise": "node src/promises/index.js"
+  },
+  "keywords": [
+    "callbacks",
+    "promises",
+    "async-awaits"
+  ],
+  "author": "Arnaldo Lugo",
+  "license": "MIT",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
+}
